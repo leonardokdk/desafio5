@@ -11,7 +11,4 @@ public class ContaCorrente extends ContaBancaria{
     public void depositar(double valor) {
         this.saldo += valor;
     }
-    public TipoConta getTipo(){
-        return this.tipo;
-    }
 }
