@@ -12,7 +12,7 @@ public class ContaPoupanca extends ContaBancaria{
         this.saldo += valor - (valor * 0.01);
     }
 
-    public TipoConta pegarTipo(){
+    public TipoConta getTipo(){
         return this.tipo;
     }
 }
